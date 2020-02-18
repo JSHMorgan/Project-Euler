@@ -1,10 +1,9 @@
-from typing import List
 import math
 
 
 def main():
     limit: int = 1000000
-    find_prime = 10001
+    find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
     prime_sieve = sieve(limit)
 
     counter = 0
