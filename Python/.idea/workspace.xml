@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc01f4d8-f36e-4668-9b0d-a8a8308d97ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Highly divisible triangular number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Large_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large_Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.Highly divisible triangular number">
+  <component name="RunManager" selected="Python.Large_Sum">
     <configuration name="1: Multiples of 3 and 5" type="PythonConfigurationType" factoryName="Python">
       <module name="EulerProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,28 +63,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9) Special Pythagorian Triplet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="EulerProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9) Special Pythagorian Triplet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Highly divisible triangular number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EulerProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +77,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Highly divisible triangular number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Large_Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EulerProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Large_Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Large_Sum" />
         <item itemvalue="Python.Highly divisible triangular number" />
         <item itemvalue="Python.Largest_Product_in_a_Grid" />
         <item itemvalue="Python.Summation_of_Primes" />
         <item itemvalue="Python.Ten_Thousand_and_first_prime" />
-        <item itemvalue="Python.9) Special Pythagorian Triplet" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,8 @@
       <workItem from="1581593654670" duration="13040000" />
       <workItem from="1582053242228" duration="179000" />
       <workItem from="1582053813346" duration="3301000" />
-      <workItem from="1582057342914" duration="23636000" />
+      <workItem from="1582057342914" duration="23733000" />
+      <workItem from="1582206355432" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="Added problem 8 completion.">
       <created>1582060970302</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582070696702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added solution to problem 12 involving co-prime factorisation.">
+      <created>1582081560409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582081560409</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +238,8 @@
     <MESSAGE value="Added problem 8 completion." />
     <MESSAGE value="Added problem 9 brute force completion." />
     <MESSAGE value="Added solutions up to problem 11 and changed names to allow importation into other files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solutions up to problem 11 and changed names to allow importation into other files." />
+    <MESSAGE value="Added solution to problem 12 involving co-prime factorisation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to problem 12 involving co-prime factorisation." />
   </component>
   <component name="WindowStateProjectService">
     <state x="330" y="91" key="#Inspections" timestamp="1582058841044">
@@ -245,42 +254,42 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1581596230269" />
-    <state x="362" y="27" key="CommitChangelistDialog2" timestamp="1582070694145">
+    <state x="362" y="27" key="CommitChangelistDialog2" timestamp="1582081557700">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="362" y="27" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1582070694145" />
-    <state width="1431" height="161" key="GridCell.Tab.0.bottom" timestamp="1582081426286">
+    <state x="362" y="27" key="CommitChangelistDialog2/0.0.1474.864@0.0.1474.864" timestamp="1582081557700" />
+    <state width="1431" height="161" key="GridCell.Tab.0.bottom" timestamp="1582207021519">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="161" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582081426286" />
-    <state width="1431" height="161" key="GridCell.Tab.0.center" timestamp="1582081426286">
+    <state width="1431" height="161" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582207021519" />
+    <state width="1431" height="161" key="GridCell.Tab.0.center" timestamp="1582207021518">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="161" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1582081426286" />
-    <state width="1431" height="161" key="GridCell.Tab.0.left" timestamp="1582081426286">
+    <state width="1431" height="161" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1582207021518" />
+    <state width="1431" height="161" key="GridCell.Tab.0.left" timestamp="1582207021518">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="161" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1582081426286" />
-    <state width="1431" height="161" key="GridCell.Tab.0.right" timestamp="1582081426286">
+    <state width="1431" height="161" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1582207021518" />
+    <state width="1431" height="161" key="GridCell.Tab.0.right" timestamp="1582207021519">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="161" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1582081426286" />
-    <state width="1431" height="272" key="GridCell.Tab.1.bottom" timestamp="1582080049254">
+    <state width="1431" height="161" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1582207021519" />
+    <state width="1431" height="272" key="GridCell.Tab.1.bottom" timestamp="1582081610468">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="272" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582080049254" />
-    <state width="1431" height="272" key="GridCell.Tab.1.center" timestamp="1582080049254">
+    <state width="1431" height="272" key="GridCell.Tab.1.bottom/0.0.1474.864@0.0.1474.864" timestamp="1582081610468" />
+    <state width="1431" height="272" key="GridCell.Tab.1.center" timestamp="1582081610467">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="272" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1582080049254" />
-    <state width="1431" height="272" key="GridCell.Tab.1.left" timestamp="1582080049253">
+    <state width="1431" height="272" key="GridCell.Tab.1.center/0.0.1474.864@0.0.1474.864" timestamp="1582081610467" />
+    <state width="1431" height="272" key="GridCell.Tab.1.left" timestamp="1582081610467">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="272" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1582080049253" />
-    <state width="1431" height="272" key="GridCell.Tab.1.right" timestamp="1582080049254">
+    <state width="1431" height="272" key="GridCell.Tab.1.left/0.0.1474.864@0.0.1474.864" timestamp="1582081610467" />
+    <state width="1431" height="272" key="GridCell.Tab.1.right" timestamp="1582081610468">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="272" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1582080049254" />
+    <state width="1431" height="272" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1582081610468" />
     <state x="246" y="75" key="SettingsEditor" timestamp="1582058173166">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -289,14 +298,14 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="744" height="439" key="XDebugger.FullValuePopup/0.0.1474.864@0.0.1474.864" timestamp="1582064539753" />
-    <state x="434" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1582053821680">
+    <state x="434" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1582206356557">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="434" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1582053821680" />
-    <state x="547" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582070629980">
+    <state x="434" y="256" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1582206356557" />
+    <state x="547" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582207032133">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="547" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1582070629980" />
+    <state x="547" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1474.864@0.0.1474.864" timestamp="1582207032133" />
     <state x="288" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582059242551">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -315,6 +324,7 @@
     <SUITE FILE_PATH="coverage/EulerProject$4__Largest_palindrome_product.coverage" NAME="4) Largest palindrome product Coverage Results" MODIFIED="1581643231976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EulerProject$5__Smallest_multiple.coverage" NAME="5) Smallest multiple Coverage Results" MODIFIED="1581644788976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EulerProject$6__Sum_square_difference.coverage" NAME="6) Sum square difference Coverage Results" MODIFIED="1581645372829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$Large_Sum.coverage" NAME="Large_Sum Coverage Results" MODIFIED="1582207021463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$9__Special_Pythagorian_Triplet.coverage" NAME="9) Special Pythagorian Triplet Coverage Results" MODIFIED="1582062808958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EulerProject$2__Even_Fibonacci_numbers.coverage" NAME="2) Even Fibonacci numbers Coverage Results" MODIFIED="1581597021121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EulerProject$3__Largest_prime_factor.coverage" NAME="3) Largest prime factor Coverage Results" MODIFIED="1581640247215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
