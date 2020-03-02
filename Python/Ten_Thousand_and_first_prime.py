@@ -2,8 +2,24 @@ import math
 
 
 def main():
-    pass
+    limit: int = 1000000
+    find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
+    prime_sieve = sieve(limit)
 
+    counter = 0
+    for key, value in prime_sieve.items():
+        if value:
+            counter += 1
+
+        if counter == find_prime:
+            print(key)
+            break
+
+
+def funcName():
+    helloWorld = "Hello, World!"
+
+    print(helloWorld)
 
 def sieve(limit: int):
     prime_sieve = {
@@ -26,17 +42,4 @@ def sieve(limit: int):
 
 
 if __name__ == "__main__":
-    limit: int = 1000000
-    find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
-    prime_sieve = sieve(limit)
-
-    counter = 0
-    for key, value in prime_sieve.items():
-        if value:
-            counter += 1
-
-        if counter == find_prime:
-            print(key)
-            break
-
-main()
+    main()
