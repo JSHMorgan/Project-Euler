@@ -2,12 +2,13 @@ import math
 
 
 def main():
-    limit: int = 1000000
-    find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
+    limit: int = 10000000000
+    # find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
     prime_sieve = sieve(limit)
 
     counter = 0
     for key, value in prime_sieve.items():
+        print(key)
         if value:
             counter += 1
 
