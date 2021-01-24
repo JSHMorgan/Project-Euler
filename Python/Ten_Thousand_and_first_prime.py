@@ -2,25 +2,20 @@ import math
 
 
 def main():
-    limit: int = 10000000000
-    # find_prime = 10001  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
+    limit: int = 10000000
+    find_prime = 254368  # Change this number to find this numbered prime. E.g. the 3rd prime is 5.
     prime_sieve = sieve(limit)
 
     counter = 0
     for key, value in prime_sieve.items():
-        print(key)
         if value:
+            print(counter, ") ", key)
             counter += 1
 
         if counter == find_prime:
-            print(key)
+            print(key, "is the prime you are looking for.")
             break
 
-
-def funcName():
-    helloWorld = "Hello, World!"
-
-    print(helloWorld)
 
 def sieve(limit: int):
     prime_sieve = {
@@ -44,3 +39,4 @@ def sieve(limit: int):
 
 if __name__ == "__main__":
     main()
+
